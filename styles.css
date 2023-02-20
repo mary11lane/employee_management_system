@@ -1,0 +1,137 @@
+/* BODY */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  overflow: hidden;
+  background-color: #41729f;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+button {
+  width: 60px;
+  padding: 5px;
+}
+
+h1,
+h2,
+.form-user div,
+.form-employee-info div,
+a.add,
+a.edit,
+a.delete,
+th,
+td,
+.nodata {
+  text-align: center;
+}
+
+.form-user,
+.form-employee-info {
+  margin: 150px 500px;
+}
+
+.form-user,
+.form-employee-info {
+  display: flex;
+  flex-direction: column;
+  padding: 25px;
+}
+
+.form-user input,
+.form-employee-info input,
+.form-user select,
+.form-employee-info select {
+  display: block;
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 0.5rem;
+}
+
+.form-user div:nth-of-type(1) {
+  color: rgb(164, 7, 7);
+}
+
+h2,
+.form-user div,
+.form-employee-info div {
+  margin: 20px 0;
+}
+
+.button-link {
+  text-decoration: underline;
+}
+
+.form-user button,
+.form-employee-info button {
+  float: right;
+  margin-left: 6px;
+}
+
+/* INDEX */
+
+h1,
+a.add,
+.nodata,
+.logout {
+  color: #fff;
+}
+
+a.add {
+  display: block;
+  margin: 40px;
+}
+
+table {
+  width: 100%;
+}
+
+h1,
+th,
+td {
+  padding: 10px;
+}
+
+tr:nth-child(even),
+th,
+.form-user,
+.form-employee-info {
+  background-color: #e7e0e0;
+}
+
+tr:nth-child(odd) {
+  background-color: #fff;
+}
+
+a.add,
+a.edit,
+a.delete {
+  text-decoration: underline;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+.nodata {
+  margin: 100px 0 50px;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.logout {
+  padding: 8px 15px;
+  border-radius: 5px;
+  background-color: #656565;
+  margin: 95%;
+}
